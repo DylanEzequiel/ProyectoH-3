@@ -1,0 +1,42 @@
+.navVar{
+    background-color: #fff9;
+    top: 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    width: 98%;
+    position: sticky;
+    z-index:10000 ;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    padding: 3px;
+}
+
+.logoNav{
+    height: 40px;
+    width: auto;
+    display: flex;
+}
+.linkNav{
+    background-color: #3b3a218c;
+    text-decoration: none;
+    color: #000;
+    margin: 3px;
+    border-radius: 3px;
+    padding: 5px;
+    border:2px solid #3a3a30;
+
+}
+.icon{
+  
+    height: 40px;
+    width: auto;
+}

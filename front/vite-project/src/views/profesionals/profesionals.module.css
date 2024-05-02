@@ -1,0 +1,13 @@
+.father{
+    background-color: #fffc;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3px;
+    justify-content: space-around;
+}

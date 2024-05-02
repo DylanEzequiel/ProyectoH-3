@@ -1,0 +1,28 @@
+.father{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.container{
+    width: 50%;
+    background-color: #fffc;
+    text-align: center;
+    font-size: 18px;
+}
+
+.label{
+    margin-top: 5px;
+}
+
+.link{
+    display: block;
+    box-sizing: content-box;
+    text-indent: 2px;
+    letter-spacing: 1px;
+    
+}
+
+.img{
+    width: 50%;
+}

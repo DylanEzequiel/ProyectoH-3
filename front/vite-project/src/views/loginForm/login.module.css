@@ -1,0 +1,111 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin: 5px;
+}
+
+.card {
+    padding: 25px;
+    margin:20px;
+    
+    background: #c7b198;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+    border-radius: 5px;
+  }
+  
+  .form {
+    padding: 25px;
+    
+  }
+  
+.title{
+  background-color: #596e79;
+  padding: 5px;
+  width: 13em;
+  background: linear-gradient(45deg, #596e79 50%,#596e79 79%, #fff0ff00 79%);
+}
+
+  .card_header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card svg {
+    color: #596e79;
+    margin-bottom: 20px;
+    margin-right: 5px;
+  }
+  
+  .form_heading {
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #596e79;
+  }
+  
+  .field {
+    padding-bottom: 10px;
+  }
+  
+  .input {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 300px;
+    display: block;
+    color: #000000;
+    border: 1px solid #dadaf7
+  }
+  
+  .input:focus-visible {
+    outline: 1px solid #aeaed6;
+  }
+  
+  .input::placeholder {
+    color: #000000;
+  }
+  
+  label {
+    color: #000000;
+    font-size: 14px;
+    display: block;
+    padding-bottom: 4px;
+  }
+
+.error{
+  color: rgb(61, 3, 3);
+  font-size: 12px;
+}
+
+  
+.button {
+    background-color: #7878bd;
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 7px 12px;
+    width: 120px;
+    height: auto;
+    font-weight: 500;
+    color: white;
+    border: none;
+  }
+  
+.button:hover {
+    background-color: #5f5f9c;
+  }
+.imgCont{
+    display: flex;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+    border-radius: 5px;
+}
+.image{
+  width: 350px;
+}
