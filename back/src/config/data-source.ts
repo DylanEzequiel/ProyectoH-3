@@ -6,10 +6,10 @@ import { DT_PORT, HOST, PASSWORD, USERNAME } from "./envs";
 
 export const AppDataSource = new DataSource({
     type: "postgres",
-    host: HOST,
-    port: DT_PORT,
+    host: HOST || "localhost",
+    port: DT_PORT || 5432,
     username:  "postgres",
-    password: "Iddu_D#C2005",
+    password: "12345",
     database: "demo",
     // dropSchema:true,
     synchronize: true,

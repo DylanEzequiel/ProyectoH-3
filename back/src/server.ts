@@ -1,8 +1,9 @@
 import indexRouter from "./routes/indexRoutes";
 import cors from "cors"
 import morgan from "morgan"
+import express from "express";
 
-const express = require("express");
+
 const app = express()
 
 app.use(cors())
